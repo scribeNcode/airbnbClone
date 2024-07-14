@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352.2px;
+    height: 48px;
+    border: 1px solid #DDDDDD;
+    border-radius: 40px;
+    
+}
+
+
+.searchDiv span{
+    width: 1px;
+    height: 24px;
+    background-color: #DDDDDD;
+}
+
+
+.addGuestAndSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addGuestDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105.39px;
+    background-color: yellow;
+    height: 22px;
+}
+
+.searchbuttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FF385C;
+}
+
+.mainNavigationMenuSD{
+    width: 77px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #DDDDDD;
+    border-radius: 21px;
+
+}
+
+.dropDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.categoriesSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    background-color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.allCategories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    width: 88.89%;
+    width: 1280px;
+
+}
+
+.primaryCategories{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: auto; */
+    /* width: 1165.44px; */
+    margin-left: 0px;
+}
+
+.categoriesAsideNextButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    gap: 32px;
+    width: 1111.83px;
+    
+}
+
+
+.eachCategoryDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peru;
+}
+
+.categoryIconlabel{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+
+
+.nextCategoryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    width: 26px;
+    height: 26px;
+    border-radius: 14px;
+}
+
+.moreFilterButon{
+    width: 90.56px;
+    height: 48px;
+    background-color: blue;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.moreFilterButon span{
+    background-color: pink;
+    display: flex;
+}
+
+
