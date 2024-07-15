@@ -172,9 +172,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid blue;
+    width: fit-content;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    margin-top: 16px;
 }
 
 .actionsDiv{
+    display: flex;
     background-color: yellow;
     margin: 17px;
 }
@@ -182,6 +188,9 @@
 .actionsText{
     background-color: blue;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 594px;
 }
 
 .actionsText p{
@@ -189,12 +198,37 @@
     line-height: 19px;
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 0px;
 }
 
 .includeAllFeesDiv{
     width: 218.67px;
     height: 19px;
     border-left: 1px solid #DDDDDD;
+    margin-left: -200.13px;
     color: #717171;
     text-align: right;
+}
+
+
+.togglebuttonDiv{
+    width: 48px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: #B0B0B0;
+}
+
+.toggleIcon{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: white;
+    margin-left: 0px;
+}
+
+main{
+    margin-top: 24px;
+    background-color: yellow;
+    height: 12px;
+    
 }
