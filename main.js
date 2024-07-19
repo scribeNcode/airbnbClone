@@ -1,10 +1,22 @@
 function fetchandDisplayData(){
+    let url = 'data.json'
+let airbnbPoductsGrid = document.querySelector(".airbnbsGrid")
+    fetch(url)
+.then((res)=>{
+    if(!res.ok){
+        console.error(res.json())
+    }else{
+        return res.json()
+    }
+})
 
-    fetch('data.json')
-    .then(response => response.json())
-    .then(data=>{
-        console.log(data)
+.then((data)=>{
+ const display = data.map((datum)=>{
+        return `
+        <>
+        `
     })
+})
 }
 
-// fetchandDisplayData()
+fetchandDisplayData()
