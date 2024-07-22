@@ -238,8 +238,6 @@
 
 main{
     margin-top: 24px;
-    background-color: yellow;
-    height: 12px;
 
 }
 
@@ -247,6 +245,45 @@ main{
 
 /* Main section */
 
+.card{
+    margin-bottom: 20px;
+}
+
+.airbnbsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .apartmentImageDiv{
     
 }
+
+
+.locationRatingDiv{
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+}
+
+.locationRatingDivItem{
+    margin-left: 0;
+}
+
+.ratingLevel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    width: 46px;
+    height: 19px;
+    margin-right: 0;
+}
+
+
+
+.ratingLevelItem{
+    flex: 1;
+    /* width: 50%; */
+}
+
+

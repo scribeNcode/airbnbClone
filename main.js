@@ -13,20 +13,20 @@ let airbnbPoductsGrid = document.querySelector(".airbnbsGrid")
 .then((data)=>{
  const display = data.map((datum)=>{
         return `
-        <div>
+        <div class="card">
         <div class = "apartmentImageDiv">
         <img src= ${datum.img} alt="" srcset="">
         </div>
         <div class="airbnbInfo">
         <div class="locationRatingDiv">
-        <p>${datum.apartmentName}</p>
-        <div class="ratingLevel">
-                <object
+        <p class="locationRatingDivItem">${datum.apartmentName}</p>
+        <div class="ratingLevel locationRatingDivItem">
+                <object  
               data="./assets/icons/ratingstar.svg"
               width=""
               type="image/svg+xml"
             ></object>
-            <p>${datum.rating}</p>
+            <p >${datum.rating}</p>
         </div>
 
         </div>
