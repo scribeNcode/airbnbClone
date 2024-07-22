@@ -38,10 +38,11 @@ let airbnbPoductsGrid = document.querySelector(".airbnbsGrid")
         
         </div>
         `
-    })
+    }).join(' ')
 
     airbnbPoductsGrid.innerHTML = display
 })
 }
 
 fetchandDisplayData()
+
